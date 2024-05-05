@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+p {
+  margin: 0;
+}
+
+.converter {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.form-wrap {
+  width: 20%;
+  display: grid;
+  place-content: center;
+}
+.input {
+  width: 230px;
+  padding: 20px 30px;
+  margin-bottom: 5px;
+  background-color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  border: 1px solid #8f8c8c;
+  outline: none;
+}
+.text-wrap {
+  width: 230px;
+  padding: 20px 15px;
+  background-color: rgba(238, 238, 238, 0.5);
+  font-size: 18px;
+  text-align: center;
+}
